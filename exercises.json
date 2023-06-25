@@ -1,0 +1,47 @@
+{"exercises": [
+  {
+    "category": "1Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "1Who starred as Bruce Wayne and Batman in Tim Burton&#039;s 1989 movie &quot;Batman&quot;?",
+    "correct_answer": "1Michael Keaton",
+    "incorrect_answers": "[ 'George Clooney', 'Val Kilmer', 'Adam West' ]",
+    "answers": "[ 'Michael Keaton', 'Adam West', 'Val Kilmer', 'George Clooney' ]"
+  },
+  {
+    "category": "2Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "2Who starred as Bruce Wayne and Batman in Tim Burton&#039;s 1989 movie &quot;Batman&quot;?",
+    "correct_answer": "2Michael Keaton",
+    "incorrect_answers": "[ 'George Clooney', 'Val Kilmer', 'Adam West' ]",
+    "answers": "[ 'Michael Keaton', 'Adam West', 'Val Kilmer', 'George Clooney' ]"
+  },
+  {
+    "category": "3Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "3Who starred as Bruce Wayne and Batman in Tim Burton&#039;s 1989 movie &quot;Batman&quot;?",
+    "correct_answer": "3Michael Keaton",
+    "incorrect_answers": "[ 'George Clooney', 'Val Kilmer', 'Adam West' ]",
+    "answers": "[ 'Michael Keaton', 'Adam West', 'Val Kilmer', 'George Clooney' ]"
+  },
+  {
+    "category": "4Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "4Who starred as Bruce Wayne and Batman in Tim Burton&#039;s 1989 movie &quot;Batman&quot;?",
+    "correct_answer": "4Michael Keaton",
+    "incorrect_answers": "[ 'George Clooney', 'Val Kilmer', 'Adam West' ]",
+    "answers": "[ 'Michael Keaton', 'Adam West', 'Val Kilmer', 'George Clooney' ]"
+  },
+  {
+    "category": "5Entertainment: Film",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "5Who starred as Bruce Wayne and Batman in Tim Burton&#039;s 1989 movie &quot;Batman&quot;?",
+    "correct_answer": "5Michael Keaton",
+    "incorrect_answers": "[ 'George Clooney', 'Val Kilmer', 'Adam West' ]",
+    "answers": "[ 'Michael Keaton', 'Adam West', 'Val Kilmer', 'George Clooney' ]"
+  }
+]}
