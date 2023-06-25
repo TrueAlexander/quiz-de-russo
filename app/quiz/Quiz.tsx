@@ -43,8 +43,8 @@ const Quiz = ({questions, totalQuestions} : Props) => {
 
   return (
     <div className="text-white text-center">
-      <p className="p-8 font-bold text-[20px]">Resultado: {score}</p>
-      <p className="text-[#9f50ac] font-bold pb-2 text-[14px]">
+      <p className="p-6 pb-4 font-bold text-[20px]">Resultado: {score}</p>
+      <p className="text-[#9f50ac] font-bold pb-2 text-[18px]">
         Pergunta {currentQuestionIndex + 1} de {totalQuestions}
       </p>
       <QuestionCard 
@@ -55,7 +55,7 @@ const Quiz = ({questions, totalQuestions} : Props) => {
         correctAnswer={questions[currentQuestionIndex].correct_answer}
         onClick={handleOnAnswerClick}
       />
-      <div className="flex justify-between mt-16">
+      <div className="flex justify-between mt-9">
         <Button text="Anterior" onClick={() => handleChangeQuestion(-1)} />
         <Button 
           text={currentQuestionIndex === totalQuestions - 1 ? 'Fim' : 'Próxima'} 

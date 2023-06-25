@@ -15,6 +15,9 @@ module.exports = {
     extend: {
       fontFamily: {
         quicksand: ['var(--font-quicksand)', ...fontFamily.sans]
+      },
+      backgroundImage: {
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
       }
     }
   },
