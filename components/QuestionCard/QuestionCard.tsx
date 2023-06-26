@@ -10,8 +10,9 @@ type Props = {
   onClick: (answer: string, currentQuestionIndex: number) => void
 }
 
-const QuestionCard = ({ currentQuestionIndex, question, answers, userAnswer, correctAnswer, onClick} : Props) => (
+const QuestionCard = ({ currentQuestionIndex, question, answers, userAnswer, correctAnswer, onClick} : Props) => {
 
+  return (
   <div>
     <p className="text-[20px] mt-3 max-w-[400px]" dangerouslySetInnerHTML={{__html: question}}></p>
     <div className="flex flex-col items-center pt-5">
@@ -26,6 +27,6 @@ const QuestionCard = ({ currentQuestionIndex, question, answers, userAnswer, cor
       ))}
     </div>
   </div>
-)
+)}
 
 export default QuestionCard
