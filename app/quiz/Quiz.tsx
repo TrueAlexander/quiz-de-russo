@@ -1,7 +1,8 @@
 'use client'
 
-import React, { useState } from "react"
+import React, { useEffect, useState } from "react"
 import { useRouter } from 'next/navigation'
+
 //Components
 import Button from "@/components/Button/Button"
 import QuestionCard from "@/components/QuestionCard/QuestionCard"
@@ -18,6 +19,7 @@ const Quiz = ({questions, totalQuestions} : Props) => {
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0)
   const [score, setScore] = useState(0)
   const [userAnswers, setUserAnswers] = useState<Record<number, string>>({})
+  const [visible, setVisible] = useState(false)
 
   const isQuestionAnswered = userAnswers[currentQuestionIndex] ? true : false
 
@@ -36,9 +38,25 @@ const Quiz = ({questions, totalQuestions} : Props) => {
 
   const handleChangeQuestion = (step: number) => {
     const newQuestionIndex = currentQuestionIndex + step
-    if (newQuestionIndex < 0 || newQuestionIndex >= totalQuestions) return
+    if (newQuestionIndex < 0 || newQuestionIndex >= totalQuestions) {
+      return
+    }
+    setCurrentQuestionIndex(newQuestionIndex) 
+  }
 
-    setCurrentQuestionIndex(newQuestionIndex)
+  useEffect(() => {
+    currentQuestionIndex !== 0 ? setVisible(true) : setVisible(false)
+  }, [currentQuestionIndex])
+
+  const handleClickForward = () => {
+
+    if(currentQuestionIndex === totalQuestions - 1) {
+      // const queryParams: resultProps = { result: score }
+      console.dir(router)
+      router.push(`/result?res=${score}&total=${totalQuestions}`)
+    } else {
+      handleChangeQuestion(1)
+    }
   }
 
   return (
@@ -56,10 +74,16 @@ const Quiz = ({questions, totalQuestions} : Props) => {
         onClick={handleOnAnswerClick}
       />
       <div className="flex justify-between mt-9">
-        <Button text="Anterior" onClick={() => handleChangeQuestion(-1)} />
-        <Button 
-          text={currentQuestionIndex === totalQuestions - 1 ? 'Fim' : 'Próxima'} 
-          onClick={currentQuestionIndex === totalQuestions - 1 ? () => router.push('/') : () => handleChangeQuestion(1)} />
+        {visible && <Button 
+          text="Anterior"
+          disabled={false}
+          onClick={() => handleChangeQuestion(-1)} 
+        />}
+        <Button
+          disabled={false}
+          text={currentQuestionIndex === totalQuestions - 1 ? 'Fim' : 'Próxima'}
+          onClick={handleClickForward}
+        />
       </div>
     </div>
   )

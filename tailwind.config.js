@@ -3,6 +3,7 @@
 const { fontFamily } = require('tailwindcss/defaultTheme');
 
 module.exports = {
+  important: true,
   content: [
     './app/**/*.{js,ts,jsx,tsx}',
     './pages/**/*.{js,ts,jsx,tsx}',
@@ -22,4 +23,4 @@ module.exports = {
     }
   },
   plugins: []
-};
+}

@@ -3,7 +3,7 @@
     "category": "verbs",
     "type": "multiple",
     "difficulty": "easy",
-    "question": "Я .... в Москве.",
+    "question": "Я ..... в Москве.",
     "correct_answer": "живу",
     "incorrect_answers": [ "живёте", "живут", "жить" ],
     "answers": [ "живёте", "живут", "жить", "живу" ]
@@ -12,7 +12,7 @@
     "category": "verbs",
     "type": "multiple",
     "difficulty": "easy",
-    "question": "Он .... об экзамене по русскому языку",
+    "question": "Он ..... об экзамене по русскому языку.",
     "correct_answer": "думает",
     "incorrect_answers": [ "думаешь", "думать", "думаю" ],
     "answers": ["думает", "думаешь", "думать", "думаю" ]
@@ -21,7 +21,7 @@
     "category": "verbs",
     "type": "multiple",
     "difficulty": "easy",
-    "question": "Я .... в Бразилии.",
+    "question": "Я ..... в Бразилии.",
     "correct_answer": "живу",
     "incorrect_answers": [ "живёте", "живут", "жить" ],
     "answers": [ "живёте", "живут", "жить", "живу" ]
@@ -30,7 +30,7 @@
     "category": "verbs",
     "type": "multiple",
     "difficulty": "easy",
-    "question": "Он .... об экзамене по математике",
+    "question": "Он ..... об экзамене по математике.",
     "correct_answer": "думает",
     "incorrect_answers": [ "думаешь", "думать", "думаю" ],
     "answers": ["думает", "думаешь", "думать", "думаю" ]
@@ -39,7 +39,7 @@
     "category": "verbs",
     "type": "multiple",
     "difficulty": "easy",
-    "question": "Он .... о своей работе",
+    "question": "Он ..... о своей работе.",
     "correct_answer": "думает",
     "incorrect_answers": [ "думаешь", "думать", "думаю" ],
     "answers": ["думает", "думаешь", "думать", "думаю" ]

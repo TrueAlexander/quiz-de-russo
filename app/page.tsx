@@ -21,7 +21,7 @@ const Home = () => {
       <p className='text-[#9f50ac] pt-4 pb-4 text-[18px] '>
         Clique abaixo
       </p>
-      <Button text='Começar!' onClick={handleButtonClick} />
+      <Button text='Começar!' disabled={false} onClick={handleButtonClick} />
     </div>
   )
 }
