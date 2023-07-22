@@ -556,6 +556,9 @@ video {
 .h-screen {
   height: 100vh !important;
 }
+.max-h-\[125px\] {
+  max-height: 125px !important;
+}
 .w-\[125px\] {
   width: 125px !important;
 }
@@ -582,6 +585,9 @@ video {
 }
 .flex-none {
   flex: none !important;
+}
+.flex-1 {
+  flex: 1 1 0% !important;
 }
 .cursor-pointer {
   cursor: pointer !important;

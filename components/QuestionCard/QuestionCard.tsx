@@ -13,7 +13,7 @@ type Props = {
 const QuestionCard = ({ currentQuestionIndex, question, answers, userAnswer, correctAnswer, onClick} : Props) => {
 
   return (
-  <div>
+  <div className="flex-auto flex flex-col justify-center">
     <p className="text-[20px] mt-3 max-w-[400px]" dangerouslySetInnerHTML={{__html: question}}></p>
     <div className="flex flex-col items-center pt-5">
       {answers.map(answer => (

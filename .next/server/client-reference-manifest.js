@@ -3422,6 +3422,110 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
+    "(app-client)/./app/quiz/Quiz.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/quiz/Quiz.tsx",
+        "name": "*",
+        "chunks": [
+          "app/quiz/page:static/chunks/app/quiz/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/quiz/Quiz.tsx",
+        "name": "",
+        "chunks": [
+          "app/quiz/page:static/chunks/app/quiz/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/quiz/Quiz.tsx",
+        "name": "default",
+        "chunks": [
+          "app/quiz/page:static/chunks/app/quiz/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./components/Button/Button.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/Button/Button.tsx",
+        "name": "*",
+        "chunks": [
+          "app/result/page:static/chunks/app/result/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./components/Button/Button.tsx",
+        "name": "",
+        "chunks": [
+          "app/result/page:static/chunks/app/result/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./components/Button/Button.tsx",
+        "name": "default",
+        "chunks": [
+          "app/result/page:static/chunks/app/result/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./components/QuestionCard/QuestionCard.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/QuestionCard/QuestionCard.tsx",
+        "name": "*",
+        "chunks": [
+          "app/quiz/page:static/chunks/app/quiz/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./components/QuestionCard/QuestionCard.tsx",
+        "name": "",
+        "chunks": [
+          "app/quiz/page:static/chunks/app/quiz/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./components/QuestionCard/QuestionCard.tsx",
+        "name": "default",
+        "chunks": [
+          "app/quiz/page:static/chunks/app/quiz/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./components/QuestionCard/helpers.ts": {
+      "*": {
+        "id": "(sc_client)/./components/QuestionCard/helpers.ts",
+        "name": "*",
+        "chunks": [
+          "app/quiz/page:static/chunks/app/quiz/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./components/QuestionCard/helpers.ts",
+        "name": "",
+        "chunks": [
+          "app/quiz/page:static/chunks/app/quiz/page.js"
+        ],
+        "async": false
+      },
+      "getBGColor": {
+        "id": "(sc_client)/./components/QuestionCard/helpers.ts",
+        "name": "getBGColor",
+        "chunks": [
+          "app/quiz/page:static/chunks/app/quiz/page.js"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./assets/logo.png": {
       "*": {
         "id": "(sc_client)/./assets/logo.png",
@@ -3750,110 +3854,6 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./app/quiz/Quiz.tsx": {
-      "*": {
-        "id": "(sc_client)/./app/quiz/Quiz.tsx",
-        "name": "*",
-        "chunks": [
-          "app/quiz/page:static/chunks/app/quiz/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./app/quiz/Quiz.tsx",
-        "name": "",
-        "chunks": [
-          "app/quiz/page:static/chunks/app/quiz/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./app/quiz/Quiz.tsx",
-        "name": "default",
-        "chunks": [
-          "app/quiz/page:static/chunks/app/quiz/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./components/Button/Button.tsx": {
-      "*": {
-        "id": "(sc_client)/./components/Button/Button.tsx",
-        "name": "*",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./components/Button/Button.tsx",
-        "name": "",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./components/Button/Button.tsx",
-        "name": "default",
-        "chunks": [
-          "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./components/QuestionCard/QuestionCard.tsx": {
-      "*": {
-        "id": "(sc_client)/./components/QuestionCard/QuestionCard.tsx",
-        "name": "*",
-        "chunks": [
-          "app/quiz/page:static/chunks/app/quiz/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./components/QuestionCard/QuestionCard.tsx",
-        "name": "",
-        "chunks": [
-          "app/quiz/page:static/chunks/app/quiz/page.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./components/QuestionCard/QuestionCard.tsx",
-        "name": "default",
-        "chunks": [
-          "app/quiz/page:static/chunks/app/quiz/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./components/QuestionCard/helpers.ts": {
-      "*": {
-        "id": "(sc_client)/./components/QuestionCard/helpers.ts",
-        "name": "*",
-        "chunks": [
-          "app/quiz/page:static/chunks/app/quiz/page.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./components/QuestionCard/helpers.ts",
-        "name": "",
-        "chunks": [
-          "app/quiz/page:static/chunks/app/quiz/page.js"
-        ],
-        "async": false
-      },
-      "getBGColor": {
-        "id": "(sc_client)/./components/QuestionCard/helpers.ts",
-        "name": "getBGColor",
-        "chunks": [
-          "app/quiz/page:static/chunks/app/quiz/page.js"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./assets/home-pic.jpg": {
       "*": {
         "id": "(sc_client)/./assets/home-pic.jpg",
@@ -3902,6 +3902,32 @@ self.__RSC_MANIFEST={
         "name": "default",
         "chunks": [
           "app/page:static/chunks/app/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/result/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/result/page.tsx",
+        "name": "*",
+        "chunks": [
+          "app/result/page:static/chunks/app/result/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/result/page.tsx",
+        "name": "",
+        "chunks": [
+          "app/result/page:static/chunks/app/result/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/result/page.tsx",
+        "name": "default",
+        "chunks": [
+          "app/result/page:static/chunks/app/result/page.js"
         ],
         "async": false
       }
@@ -11354,6 +11380,102 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\app\\quiz\\Quiz.tsx": {
+      "id": "(app-client)/./app/quiz/Quiz.tsx",
+      "name": "*",
+      "chunks": [
+        "app/quiz/page:static/chunks/app/quiz/page.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\app\\quiz\\Quiz.tsx#": {
+      "id": "(app-client)/./app/quiz/Quiz.tsx",
+      "name": "",
+      "chunks": [
+        "app/quiz/page:static/chunks/app/quiz/page.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\app\\quiz\\Quiz.tsx#default": {
+      "id": "(app-client)/./app/quiz/Quiz.tsx",
+      "name": "default",
+      "chunks": [
+        "app/quiz/page:static/chunks/app/quiz/page.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\components\\Button\\Button.tsx": {
+      "id": "(app-client)/./components/Button/Button.tsx",
+      "name": "*",
+      "chunks": [
+        "app/result/page:static/chunks/app/result/page.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\components\\Button\\Button.tsx#": {
+      "id": "(app-client)/./components/Button/Button.tsx",
+      "name": "",
+      "chunks": [
+        "app/result/page:static/chunks/app/result/page.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\components\\Button\\Button.tsx#default": {
+      "id": "(app-client)/./components/Button/Button.tsx",
+      "name": "default",
+      "chunks": [
+        "app/result/page:static/chunks/app/result/page.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\components\\QuestionCard\\QuestionCard.tsx": {
+      "id": "(app-client)/./components/QuestionCard/QuestionCard.tsx",
+      "name": "*",
+      "chunks": [
+        "app/quiz/page:static/chunks/app/quiz/page.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\components\\QuestionCard\\QuestionCard.tsx#": {
+      "id": "(app-client)/./components/QuestionCard/QuestionCard.tsx",
+      "name": "",
+      "chunks": [
+        "app/quiz/page:static/chunks/app/quiz/page.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\components\\QuestionCard\\QuestionCard.tsx#default": {
+      "id": "(app-client)/./components/QuestionCard/QuestionCard.tsx",
+      "name": "default",
+      "chunks": [
+        "app/quiz/page:static/chunks/app/quiz/page.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\components\\QuestionCard\\helpers.ts": {
+      "id": "(app-client)/./components/QuestionCard/helpers.ts",
+      "name": "*",
+      "chunks": [
+        "app/quiz/page:static/chunks/app/quiz/page.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\components\\QuestionCard\\helpers.ts#": {
+      "id": "(app-client)/./components/QuestionCard/helpers.ts",
+      "name": "",
+      "chunks": [
+        "app/quiz/page:static/chunks/app/quiz/page.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\components\\QuestionCard\\helpers.ts#getBGColor": {
+      "id": "(app-client)/./components/QuestionCard/helpers.ts",
+      "name": "getBGColor",
+      "chunks": [
+        "app/quiz/page:static/chunks/app/quiz/page.js"
+      ],
+      "async": false
+    },
     "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\app\\globals.css#": {
       "id": "null",
       "name": "default",
@@ -13232,102 +13354,6 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\app\\quiz\\Quiz.tsx": {
-      "id": "(app-client)/./app/quiz/Quiz.tsx",
-      "name": "*",
-      "chunks": [
-        "app/quiz/page:static/chunks/app/quiz/page.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\app\\quiz\\Quiz.tsx#": {
-      "id": "(app-client)/./app/quiz/Quiz.tsx",
-      "name": "",
-      "chunks": [
-        "app/quiz/page:static/chunks/app/quiz/page.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\app\\quiz\\Quiz.tsx#default": {
-      "id": "(app-client)/./app/quiz/Quiz.tsx",
-      "name": "default",
-      "chunks": [
-        "app/quiz/page:static/chunks/app/quiz/page.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\components\\Button\\Button.tsx": {
-      "id": "(app-client)/./components/Button/Button.tsx",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\components\\Button\\Button.tsx#": {
-      "id": "(app-client)/./components/Button/Button.tsx",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\components\\Button\\Button.tsx#default": {
-      "id": "(app-client)/./components/Button/Button.tsx",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\components\\QuestionCard\\QuestionCard.tsx": {
-      "id": "(app-client)/./components/QuestionCard/QuestionCard.tsx",
-      "name": "*",
-      "chunks": [
-        "app/quiz/page:static/chunks/app/quiz/page.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\components\\QuestionCard\\QuestionCard.tsx#": {
-      "id": "(app-client)/./components/QuestionCard/QuestionCard.tsx",
-      "name": "",
-      "chunks": [
-        "app/quiz/page:static/chunks/app/quiz/page.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\components\\QuestionCard\\QuestionCard.tsx#default": {
-      "id": "(app-client)/./components/QuestionCard/QuestionCard.tsx",
-      "name": "default",
-      "chunks": [
-        "app/quiz/page:static/chunks/app/quiz/page.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\components\\QuestionCard\\helpers.ts": {
-      "id": "(app-client)/./components/QuestionCard/helpers.ts",
-      "name": "*",
-      "chunks": [
-        "app/quiz/page:static/chunks/app/quiz/page.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\components\\QuestionCard\\helpers.ts#": {
-      "id": "(app-client)/./components/QuestionCard/helpers.ts",
-      "name": "",
-      "chunks": [
-        "app/quiz/page:static/chunks/app/quiz/page.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\components\\QuestionCard\\helpers.ts#getBGColor": {
-      "id": "(app-client)/./components/QuestionCard/helpers.ts",
-      "name": "getBGColor",
-      "chunks": [
-        "app/quiz/page:static/chunks/app/quiz/page.js"
-      ],
-      "async": false
-    },
     "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\assets\\home-pic.jpg": {
       "id": "(app-client)/./assets/home-pic.jpg",
       "name": "*",
@@ -13373,6 +13399,30 @@ self.__RSC_MANIFEST={
       "name": "default",
       "chunks": [
         "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\app\\result\\page.tsx": {
+      "id": "(app-client)/./app/result/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/result/page:static/chunks/app/result/page.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\app\\result\\page.tsx#": {
+      "id": "(app-client)/./app/result/page.tsx",
+      "name": "",
+      "chunks": [
+        "app/result/page:static/chunks/app/result/page.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\app\\result\\page.tsx#default": {
+      "id": "(app-client)/./app/result/page.tsx",
+      "name": "default",
+      "chunks": [
+        "app/result/page:static/chunks/app/result/page.js"
       ],
       "async": false
     }

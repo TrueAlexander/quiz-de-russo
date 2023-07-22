@@ -24,7 +24,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="bg-[#2b2737] p-4 h-screen">
         <main className={`${quicksand.variable} font-quicksand max-w-[900px] w-full m-auto flex flex-col items-center h-full overflow-hidden `}>
-          <Link href='/' className="h-[125px] flex-none">
+          <Link href='/' className="max-h-[125px] flex-auto">
             <div className="h-full w-[125px]  flex-none  cursor-pointer  rounded-[50%] bg-gradient-radial from-[#dcddd8]  to-[#9f50ac] border-4 border-[#9f50ac]">
               <Image 
                 className="" 
