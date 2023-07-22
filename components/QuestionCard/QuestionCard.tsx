@@ -20,7 +20,7 @@ const QuestionCard = ({ currentQuestionIndex, question, answers, userAnswer, cor
         <div
           key={answer}
           onClick={() => onClick(answer, currentQuestionIndex)}
-          className={`${getBGColor(userAnswer, correctAnswer, answer)} cursor-pointer flex items-center justify-center select-none font-bold min-h-[45px] max-w-[400px] w-full my-2 rounded-[10px]`}
+          className={`${getBGColor(userAnswer, correctAnswer, answer)} cursor-pointer flex items-center justify-center select-none font-bold h-[34px] max-w-[400px] w-full my-2 rounded-[10px]`}
         >
           <span className="truncate" dangerouslySetInnerHTML={{__html: answer}} />
         </div>

@@ -13,7 +13,7 @@ const Home = () => {
   const handleButtonClick = () => router.push('/quiz')
 
   return (
-    <div className='text-center'>
+    <div className='text-center flex-auto'>
       <p className='text-white p-4 font-bold'>
         Quiz do idioma russo. Bora praticar!
       </p>

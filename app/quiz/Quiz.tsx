@@ -73,7 +73,7 @@ const Quiz = ({questions, totalQuestions} : Props) => {
         correctAnswer={questions[currentQuestionIndex].correct_answer}
         onClick={handleOnAnswerClick}
       />
-      <div className="flex justify-between mt-9">
+      <div className="flex justify-center mt-9">
         {visible && <Button 
           text="Anterior"
           disabled={false}
