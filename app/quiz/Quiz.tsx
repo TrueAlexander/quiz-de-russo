@@ -73,7 +73,7 @@ const Quiz = ({questions, totalQuestions} : Props) => {
         </div>  
       : <div className="text-white text-center mt-5 grow-0 flex flex-col justify-center">
           {/* <p className="p-6 pb-4 font-bold text-[20px]">Resultado: {score}</p> */}
-          <p className="text-[#9f50ac] font-bold pb-2 text-[18px]">
+          <p className="text-[#9f50ac] font-bold pb-2 text-[16px]">
             Pergunta {currentQuestionIndex + 1} de {totalQuestions}
           </p>
           <QuestionCard 
@@ -84,7 +84,7 @@ const Quiz = ({questions, totalQuestions} : Props) => {
             correctAnswer={questions[currentQuestionIndex].correct_answer}
             onClick={handleOnAnswerClick}
           />
-          <div className="flex justify-center mt-9">
+          <div className="flex justify-center mt-6">
             {visible && <Button 
               text="Anterior"
               disabled={false}

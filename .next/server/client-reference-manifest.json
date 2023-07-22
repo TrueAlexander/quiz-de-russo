@@ -3422,80 +3422,132 @@
         "async": false
       }
     },
-    "(app-client)/./assets/logo.png": {
+    "(app-client)/./app/quiz/Quiz.tsx": {
       "*": {
-        "id": "(sc_client)/./assets/logo.png",
+        "id": "(sc_client)/./app/quiz/Quiz.tsx",
         "name": "*",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/quiz/page:static/chunks/app/quiz/page.js"
         ],
         "async": false
       },
       "": {
-        "id": "(sc_client)/./assets/logo.png",
+        "id": "(sc_client)/./app/quiz/Quiz.tsx",
         "name": "",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/quiz/page:static/chunks/app/quiz/page.js"
         ],
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./assets/logo.png",
+        "id": "(sc_client)/./app/quiz/Quiz.tsx",
         "name": "default",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/quiz/page:static/chunks/app/quiz/page.js"
         ],
         "async": false
       }
     },
-    "(app-client)/./node_modules/next/dist/client/add-locale.js": {
+    "(app-client)/./components/Button/Button.tsx": {
       "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/add-locale.js",
+        "id": "(sc_client)/./components/Button/Button.tsx",
         "name": "*",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/result/page:static/chunks/app/result/page.js"
         ],
         "async": false
       },
       "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/add-locale.js",
+        "id": "(sc_client)/./components/Button/Button.tsx",
         "name": "",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/result/page:static/chunks/app/result/page.js"
         ],
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/add-locale.js",
+        "id": "(sc_client)/./components/Button/Button.tsx",
         "name": "default",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/result/page:static/chunks/app/result/page.js"
         ],
         "async": false
       }
     },
-    "(app-client)/./node_modules/next/dist/client/get-domain-locale.js": {
+    "(app-client)/./components/Loading/Loading.tsx": {
       "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/get-domain-locale.js",
+        "id": "(sc_client)/./components/Loading/Loading.tsx",
         "name": "*",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/quiz/page:static/chunks/app/quiz/page.js"
         ],
         "async": false
       },
       "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/get-domain-locale.js",
+        "id": "(sc_client)/./components/Loading/Loading.tsx",
         "name": "",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/quiz/page:static/chunks/app/quiz/page.js"
         ],
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/get-domain-locale.js",
+        "id": "(sc_client)/./components/Loading/Loading.tsx",
         "name": "default",
         "chunks": [
-          "app/layout:static/chunks/app/layout.js"
+          "app/quiz/page:static/chunks/app/quiz/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./components/QuestionCard/QuestionCard.tsx": {
+      "*": {
+        "id": "(sc_client)/./components/QuestionCard/QuestionCard.tsx",
+        "name": "*",
+        "chunks": [
+          "app/quiz/page:static/chunks/app/quiz/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./components/QuestionCard/QuestionCard.tsx",
+        "name": "",
+        "chunks": [
+          "app/quiz/page:static/chunks/app/quiz/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./components/QuestionCard/QuestionCard.tsx",
+        "name": "default",
+        "chunks": [
+          "app/quiz/page:static/chunks/app/quiz/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./components/QuestionCard/helpers.ts": {
+      "*": {
+        "id": "(sc_client)/./components/QuestionCard/helpers.ts",
+        "name": "*",
+        "chunks": [
+          "app/quiz/page:static/chunks/app/quiz/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./components/QuestionCard/helpers.ts",
+        "name": "",
+        "chunks": [
+          "app/quiz/page:static/chunks/app/quiz/page.js"
+        ],
+        "async": false
+      },
+      "getBGColor": {
+        "id": "(sc_client)/./components/QuestionCard/helpers.ts",
+        "name": "getBGColor",
+        "chunks": [
+          "app/quiz/page:static/chunks/app/quiz/page.js"
         ],
         "async": false
       }
@@ -3522,84 +3574,6 @@
         "name": "default",
         "chunks": [
           "app/page:static/chunks/app/page.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/client/link.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "*",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "default",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/client/request-idle-callback.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/request-idle-callback.js",
-        "name": "*",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/request-idle-callback.js",
-        "name": "",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/request-idle-callback.js",
-        "name": "default",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      }
-    },
-    "(app-client)/./node_modules/next/dist/client/use-intersection.js": {
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/use-intersection.js",
-        "name": "*",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/use-intersection.js",
-        "name": "",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/use-intersection.js",
-        "name": "default",
-        "chunks": [
-          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       }
@@ -3750,132 +3724,158 @@
         "async": false
       }
     },
-    "(app-client)/./app/quiz/Quiz.tsx": {
+    "(app-client)/./assets/logo.png": {
       "*": {
-        "id": "(sc_client)/./app/quiz/Quiz.tsx",
+        "id": "(sc_client)/./assets/logo.png",
         "name": "*",
         "chunks": [
-          "app/quiz/page:static/chunks/app/quiz/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       },
       "": {
-        "id": "(sc_client)/./app/quiz/Quiz.tsx",
+        "id": "(sc_client)/./assets/logo.png",
         "name": "",
         "chunks": [
-          "app/quiz/page:static/chunks/app/quiz/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./app/quiz/Quiz.tsx",
+        "id": "(sc_client)/./assets/logo.png",
         "name": "default",
         "chunks": [
-          "app/quiz/page:static/chunks/app/quiz/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       }
     },
-    "(app-client)/./components/Button/Button.tsx": {
+    "(app-client)/./node_modules/next/dist/client/add-locale.js": {
       "*": {
-        "id": "(sc_client)/./components/Button/Button.tsx",
+        "id": "(sc_client)/./node_modules/next/dist/client/add-locale.js",
         "name": "*",
         "chunks": [
-          "app/result/page:static/chunks/app/result/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       },
       "": {
-        "id": "(sc_client)/./components/Button/Button.tsx",
+        "id": "(sc_client)/./node_modules/next/dist/client/add-locale.js",
         "name": "",
         "chunks": [
-          "app/result/page:static/chunks/app/result/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./components/Button/Button.tsx",
+        "id": "(sc_client)/./node_modules/next/dist/client/add-locale.js",
         "name": "default",
         "chunks": [
-          "app/result/page:static/chunks/app/result/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       }
     },
-    "(app-client)/./components/Loading/Loading.tsx": {
+    "(app-client)/./node_modules/next/dist/client/get-domain-locale.js": {
       "*": {
-        "id": "(sc_client)/./components/Loading/Loading.tsx",
+        "id": "(sc_client)/./node_modules/next/dist/client/get-domain-locale.js",
         "name": "*",
         "chunks": [
-          "app/quiz/page:static/chunks/app/quiz/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       },
       "": {
-        "id": "(sc_client)/./components/Loading/Loading.tsx",
+        "id": "(sc_client)/./node_modules/next/dist/client/get-domain-locale.js",
         "name": "",
         "chunks": [
-          "app/quiz/page:static/chunks/app/quiz/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./components/Loading/Loading.tsx",
+        "id": "(sc_client)/./node_modules/next/dist/client/get-domain-locale.js",
         "name": "default",
         "chunks": [
-          "app/quiz/page:static/chunks/app/quiz/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       }
     },
-    "(app-client)/./components/QuestionCard/QuestionCard.tsx": {
+    "(app-client)/./node_modules/next/dist/client/link.js": {
       "*": {
-        "id": "(sc_client)/./components/QuestionCard/QuestionCard.tsx",
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "*",
         "chunks": [
-          "app/quiz/page:static/chunks/app/quiz/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       },
       "": {
-        "id": "(sc_client)/./components/QuestionCard/QuestionCard.tsx",
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "",
         "chunks": [
-          "app/quiz/page:static/chunks/app/quiz/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./components/QuestionCard/QuestionCard.tsx",
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "default",
         "chunks": [
-          "app/quiz/page:static/chunks/app/quiz/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       }
     },
-    "(app-client)/./components/QuestionCard/helpers.ts": {
+    "(app-client)/./node_modules/next/dist/client/request-idle-callback.js": {
       "*": {
-        "id": "(sc_client)/./components/QuestionCard/helpers.ts",
+        "id": "(sc_client)/./node_modules/next/dist/client/request-idle-callback.js",
         "name": "*",
         "chunks": [
-          "app/quiz/page:static/chunks/app/quiz/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       },
       "": {
-        "id": "(sc_client)/./components/QuestionCard/helpers.ts",
+        "id": "(sc_client)/./node_modules/next/dist/client/request-idle-callback.js",
         "name": "",
         "chunks": [
-          "app/quiz/page:static/chunks/app/quiz/page.js"
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       },
-      "getBGColor": {
-        "id": "(sc_client)/./components/QuestionCard/helpers.ts",
-        "name": "getBGColor",
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/request-idle-callback.js",
+        "name": "default",
         "chunks": [
-          "app/quiz/page:static/chunks/app/quiz/page.js"
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/use-intersection.js": {
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/use-intersection.js",
+        "name": "*",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/use-intersection.js",
+        "name": "",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/use-intersection.js",
+        "name": "default",
+        "chunks": [
+          "app/layout:static/chunks/app/layout.js"
         ],
         "async": false
       }
@@ -11406,185 +11406,123 @@
       ],
       "async": false
     },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\app\\globals.css#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\layout.tsx\",\"import\":\"Quicksand\",\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-quicksand\"}],\"variableName\":\"quicksand\"}#": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/app/layout.css"
-      ]
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\assets\\logo.png": {
-      "id": "(app-client)/./assets/logo.png",
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\app\\quiz\\Quiz.tsx": {
+      "id": "(app-client)/./app/quiz/Quiz.tsx",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/quiz/page:static/chunks/app/quiz/page.js"
       ],
       "async": false
     },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\assets\\logo.png#": {
-      "id": "(app-client)/./assets/logo.png",
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\app\\quiz\\Quiz.tsx#": {
+      "id": "(app-client)/./app/quiz/Quiz.tsx",
       "name": "",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/quiz/page:static/chunks/app/quiz/page.js"
       ],
       "async": false
     },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\assets\\logo.png#default": {
-      "id": "(app-client)/./assets/logo.png",
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\app\\quiz\\Quiz.tsx#default": {
+      "id": "(app-client)/./app/quiz/Quiz.tsx",
       "name": "default",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/quiz/page:static/chunks/app/quiz/page.js"
       ],
       "async": false
     },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\client\\add-locale.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\components\\Button\\Button.tsx": {
+      "id": "(app-client)/./components/Button/Button.tsx",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/result/page:static/chunks/app/result/page.js"
       ],
       "async": false
     },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\client\\add-locale.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\components\\Button\\Button.tsx#": {
+      "id": "(app-client)/./components/Button/Button.tsx",
+      "name": "",
+      "chunks": [
+        "app/result/page:static/chunks/app/result/page.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\components\\Button\\Button.tsx#default": {
+      "id": "(app-client)/./components/Button/Button.tsx",
+      "name": "default",
+      "chunks": [
+        "app/result/page:static/chunks/app/result/page.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\components\\Loading\\Loading.tsx": {
+      "id": "(app-client)/./components/Loading/Loading.tsx",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/quiz/page:static/chunks/app/quiz/page.js"
       ],
       "async": false
     },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\client\\add-locale.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\components\\Loading\\Loading.tsx#": {
+      "id": "(app-client)/./components/Loading/Loading.tsx",
       "name": "",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/quiz/page:static/chunks/app/quiz/page.js"
       ],
       "async": false
     },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\client\\add-locale.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
-      "name": "",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\client\\add-locale.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\components\\Loading\\Loading.tsx#default": {
+      "id": "(app-client)/./components/Loading/Loading.tsx",
       "name": "default",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/quiz/page:static/chunks/app/quiz/page.js"
       ],
       "async": false
     },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\client\\add-locale.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\client\\get-domain-locale.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\components\\QuestionCard\\QuestionCard.tsx": {
+      "id": "(app-client)/./components/QuestionCard/QuestionCard.tsx",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/quiz/page:static/chunks/app/quiz/page.js"
       ],
       "async": false
     },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\client\\get-domain-locale.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\components\\QuestionCard\\QuestionCard.tsx#": {
+      "id": "(app-client)/./components/QuestionCard/QuestionCard.tsx",
+      "name": "",
+      "chunks": [
+        "app/quiz/page:static/chunks/app/quiz/page.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\components\\QuestionCard\\QuestionCard.tsx#default": {
+      "id": "(app-client)/./components/QuestionCard/QuestionCard.tsx",
+      "name": "default",
+      "chunks": [
+        "app/quiz/page:static/chunks/app/quiz/page.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\components\\QuestionCard\\helpers.ts": {
+      "id": "(app-client)/./components/QuestionCard/helpers.ts",
       "name": "*",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/quiz/page:static/chunks/app/quiz/page.js"
       ],
       "async": false
     },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\client\\get-domain-locale.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\components\\QuestionCard\\helpers.ts#": {
+      "id": "(app-client)/./components/QuestionCard/helpers.ts",
       "name": "",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/quiz/page:static/chunks/app/quiz/page.js"
       ],
       "async": false
     },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\client\\get-domain-locale.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
-      "name": "",
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\components\\QuestionCard\\helpers.ts#getBGColor": {
+      "id": "(app-client)/./components/QuestionCard/helpers.ts",
+      "name": "getBGColor",
       "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\client\\get-domain-locale.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\client\\get-domain-locale.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\client\\has-base-path.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\client\\has-base-path.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\client\\has-base-path.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
-      "name": "",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\client\\has-base-path.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
-      "name": "",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\client\\has-base-path.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\client\\has-base-path.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
+        "app/quiz/page:static/chunks/app/quiz/page.js"
       ],
       "async": false
     },
@@ -11633,150 +11571,6 @@
       "name": "default",
       "chunks": [
         "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\client\\link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\client\\link.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\client\\link.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\client\\link.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\client\\link.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\client\\link.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/link.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\client\\request-idle-callback.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\client\\request-idle-callback.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\client\\request-idle-callback.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
-      "name": "",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\client\\request-idle-callback.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
-      "name": "",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\client\\request-idle-callback.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\client\\request-idle-callback.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\client\\use-intersection.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\client\\use-intersection.js": {
-      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\client\\use-intersection.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
-      "name": "",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\client\\use-intersection.js#": {
-      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
-      "name": "",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\client\\use-intersection.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\client\\use-intersection.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
-      "name": "default",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -11905,70 +11699,6 @@
       "name": "isInAmpMode",
       "chunks": [
         "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\shared\\lib\\escape-regexp.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\shared\\lib\\escape-regexp.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
-      "name": "*",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\shared\\lib\\escape-regexp.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
-      "name": "",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\shared\\lib\\escape-regexp.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
-      "name": "",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\shared\\lib\\escape-regexp.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\shared\\lib\\escape-regexp.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\shared\\lib\\escape-regexp.js#escapeStringRegexp": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
-      "name": "escapeStringRegexp",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\shared\\lib\\escape-regexp.js#escapeStringRegexp": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
-      "name": "escapeStringRegexp",
-      "chunks": [
-        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -12513,6 +12243,524 @@
       "name": "",
       "chunks": [
         "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\shared\\lib\\side-effect.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/side-effect.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\shared\\lib\\side-effect.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/side-effect.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\shared\\lib\\side-effect.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/side-effect.js",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\shared\\lib\\side-effect.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/side-effect.js",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\shared\\lib\\side-effect.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/side-effect.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\shared\\lib\\side-effect.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/side-effect.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\shared\\lib\\side-effect.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/side-effect.js",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\shared\\lib\\side-effect.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/side-effect.js",
+      "name": "default",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\shared\\lib\\utils\\warn-once.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils/warn-once.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\shared\\lib\\utils\\warn-once.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils/warn-once.js",
+      "name": "*",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\shared\\lib\\utils\\warn-once.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils/warn-once.js",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\shared\\lib\\utils\\warn-once.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils/warn-once.js",
+      "name": "",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\shared\\lib\\utils\\warn-once.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils/warn-once.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\shared\\lib\\utils\\warn-once.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils/warn-once.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\shared\\lib\\utils\\warn-once.js#warnOnce": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils/warn-once.js",
+      "name": "warnOnce",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\shared\\lib\\utils\\warn-once.js#warnOnce": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils/warn-once.js",
+      "name": "warnOnce",
+      "chunks": [
+        "app/page:static/chunks/app/page.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\app\\globals.css#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\font\\google\\target.css?{\"path\":\"app\\\\layout.tsx\",\"import\":\"Quicksand\",\"arguments\":[{\"subsets\":[\"latin\"],\"variable\":\"--font-quicksand\"}],\"variableName\":\"quicksand\"}#": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\assets\\logo.png": {
+      "id": "(app-client)/./assets/logo.png",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\assets\\logo.png#": {
+      "id": "(app-client)/./assets/logo.png",
+      "name": "",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\assets\\logo.png#default": {
+      "id": "(app-client)/./assets/logo.png",
+      "name": "default",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\client\\add-locale.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\client\\add-locale.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\client\\add-locale.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
+      "name": "",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\client\\add-locale.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
+      "name": "",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\client\\add-locale.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
+      "name": "default",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\client\\add-locale.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/add-locale.js",
+      "name": "default",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\client\\get-domain-locale.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\client\\get-domain-locale.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\client\\get-domain-locale.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
+      "name": "",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\client\\get-domain-locale.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
+      "name": "",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\client\\get-domain-locale.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
+      "name": "default",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\client\\get-domain-locale.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/get-domain-locale.js",
+      "name": "default",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\client\\has-base-path.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\client\\has-base-path.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\client\\has-base-path.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
+      "name": "",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\client\\has-base-path.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
+      "name": "",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\client\\has-base-path.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
+      "name": "default",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\client\\has-base-path.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/has-base-path.js",
+      "name": "default",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\client\\link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\client\\link.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\client\\link.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\client\\link.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\client\\link.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\client\\link.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/link.js",
+      "name": "default",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\client\\request-idle-callback.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\client\\request-idle-callback.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\client\\request-idle-callback.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
+      "name": "",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\client\\request-idle-callback.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
+      "name": "",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\client\\request-idle-callback.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
+      "name": "default",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\client\\request-idle-callback.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/request-idle-callback.js",
+      "name": "default",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\client\\use-intersection.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\client\\use-intersection.js": {
+      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\client\\use-intersection.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
+      "name": "",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\client\\use-intersection.js#": {
+      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
+      "name": "",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\client\\use-intersection.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
+      "name": "default",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\client\\use-intersection.js#default": {
+      "id": "(app-client)/./node_modules/next/dist/client/use-intersection.js",
+      "name": "default",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\shared\\lib\\escape-regexp.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\shared\\lib\\escape-regexp.js": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\shared\\lib\\escape-regexp.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
+      "name": "",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\shared\\lib\\escape-regexp.js#": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
+      "name": "",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\shared\\lib\\escape-regexp.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\shared\\lib\\escape-regexp.js#__esModule": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
+      "name": "__esModule",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\shared\\lib\\escape-regexp.js#escapeStringRegexp": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
+      "name": "escapeStringRegexp",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\shared\\lib\\escape-regexp.js#escapeStringRegexp": {
+      "id": "(app-client)/./node_modules/next/dist/shared/lib/escape-regexp.js",
+      "name": "escapeStringRegexp",
+      "chunks": [
+        "app/layout:static/chunks/app/layout.js"
       ],
       "async": false
     },
@@ -13124,70 +13372,6 @@
       ],
       "async": false
     },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\shared\\lib\\side-effect.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/side-effect.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\shared\\lib\\side-effect.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/side-effect.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\shared\\lib\\side-effect.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/side-effect.js",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\shared\\lib\\side-effect.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/side-effect.js",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\shared\\lib\\side-effect.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/side-effect.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\shared\\lib\\side-effect.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/side-effect.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\shared\\lib\\side-effect.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/side-effect.js",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\shared\\lib\\side-effect.js#default": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/side-effect.js",
-      "name": "default",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
     "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\shared\\lib\\utils.js": {
       "id": "(app-client)/./node_modules/next/dist/shared/lib/utils.js",
       "name": "*",
@@ -13217,190 +13401,6 @@
       "name": "",
       "chunks": [
         "app/layout:static/chunks/app/layout.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\shared\\lib\\utils\\warn-once.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils/warn-once.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\shared\\lib\\utils\\warn-once.js": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils/warn-once.js",
-      "name": "*",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\shared\\lib\\utils\\warn-once.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils/warn-once.js",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\shared\\lib\\utils\\warn-once.js#": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils/warn-once.js",
-      "name": "",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\shared\\lib\\utils\\warn-once.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils/warn-once.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\shared\\lib\\utils\\warn-once.js#__esModule": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils/warn-once.js",
-      "name": "__esModule",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\shared\\lib\\utils\\warn-once.js#warnOnce": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils/warn-once.js",
-      "name": "warnOnce",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\node_modules\\next\\dist\\esm\\shared\\lib\\utils\\warn-once.js#warnOnce": {
-      "id": "(app-client)/./node_modules/next/dist/shared/lib/utils/warn-once.js",
-      "name": "warnOnce",
-      "chunks": [
-        "app/page:static/chunks/app/page.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\app\\quiz\\Quiz.tsx": {
-      "id": "(app-client)/./app/quiz/Quiz.tsx",
-      "name": "*",
-      "chunks": [
-        "app/quiz/page:static/chunks/app/quiz/page.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\app\\quiz\\Quiz.tsx#": {
-      "id": "(app-client)/./app/quiz/Quiz.tsx",
-      "name": "",
-      "chunks": [
-        "app/quiz/page:static/chunks/app/quiz/page.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\app\\quiz\\Quiz.tsx#default": {
-      "id": "(app-client)/./app/quiz/Quiz.tsx",
-      "name": "default",
-      "chunks": [
-        "app/quiz/page:static/chunks/app/quiz/page.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\components\\Button\\Button.tsx": {
-      "id": "(app-client)/./components/Button/Button.tsx",
-      "name": "*",
-      "chunks": [
-        "app/result/page:static/chunks/app/result/page.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\components\\Button\\Button.tsx#": {
-      "id": "(app-client)/./components/Button/Button.tsx",
-      "name": "",
-      "chunks": [
-        "app/result/page:static/chunks/app/result/page.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\components\\Button\\Button.tsx#default": {
-      "id": "(app-client)/./components/Button/Button.tsx",
-      "name": "default",
-      "chunks": [
-        "app/result/page:static/chunks/app/result/page.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\components\\Loading\\Loading.tsx": {
-      "id": "(app-client)/./components/Loading/Loading.tsx",
-      "name": "*",
-      "chunks": [
-        "app/quiz/page:static/chunks/app/quiz/page.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\components\\Loading\\Loading.tsx#": {
-      "id": "(app-client)/./components/Loading/Loading.tsx",
-      "name": "",
-      "chunks": [
-        "app/quiz/page:static/chunks/app/quiz/page.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\components\\Loading\\Loading.tsx#default": {
-      "id": "(app-client)/./components/Loading/Loading.tsx",
-      "name": "default",
-      "chunks": [
-        "app/quiz/page:static/chunks/app/quiz/page.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\components\\QuestionCard\\QuestionCard.tsx": {
-      "id": "(app-client)/./components/QuestionCard/QuestionCard.tsx",
-      "name": "*",
-      "chunks": [
-        "app/quiz/page:static/chunks/app/quiz/page.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\components\\QuestionCard\\QuestionCard.tsx#": {
-      "id": "(app-client)/./components/QuestionCard/QuestionCard.tsx",
-      "name": "",
-      "chunks": [
-        "app/quiz/page:static/chunks/app/quiz/page.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\components\\QuestionCard\\QuestionCard.tsx#default": {
-      "id": "(app-client)/./components/QuestionCard/QuestionCard.tsx",
-      "name": "default",
-      "chunks": [
-        "app/quiz/page:static/chunks/app/quiz/page.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\components\\QuestionCard\\helpers.ts": {
-      "id": "(app-client)/./components/QuestionCard/helpers.ts",
-      "name": "*",
-      "chunks": [
-        "app/quiz/page:static/chunks/app/quiz/page.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\components\\QuestionCard\\helpers.ts#": {
-      "id": "(app-client)/./components/QuestionCard/helpers.ts",
-      "name": "",
-      "chunks": [
-        "app/quiz/page:static/chunks/app/quiz/page.js"
-      ],
-      "async": false
-    },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\components\\QuestionCard\\helpers.ts#getBGColor": {
-      "id": "(app-client)/./components/QuestionCard/helpers.ts",
-      "name": "getBGColor",
-      "chunks": [
-        "app/quiz/page:static/chunks/app/quiz/page.js"
       ],
       "async": false
     },

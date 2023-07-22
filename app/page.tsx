@@ -17,7 +17,7 @@ const Home = () => {
       <p className='text-white p-4 font-bold'>
         Quiz do idioma russo. Bora praticar!
       </p>
-      <Image className='max-w-[450px] w-full rounded-[10px] border-4 border-[#9f50ac]' src={HomepageImage} alt='home-page'/>
+      <Image className='max-w-[430px] w-full rounded-[10px] border-4 border-[#9f50ac]' src={HomepageImage} alt='home-page'/>
       <p className='text-[#9f50ac] pt-4 pb-4 text-[18px] '>
         Clique abaixo
       </p>

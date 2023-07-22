@@ -34,7 +34,7 @@ export default function RootLayout({
             </div>     
           </Link>
           {children}
-          <p className='text-white mt-7 p-4 text-[12px]'>
+          <p className='text-white mt-5 p-4 text-[10px]'>
             Criado por <a href="https://www.eformaliza.com/" target="_blank" >e-Formaliza</a>
           </p>
         </main>        
