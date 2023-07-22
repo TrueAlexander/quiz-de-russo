@@ -23,9 +23,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-[#2b2737] p-4 h-screen">
-        <main className={`${quicksand.variable} font-quicksand max-w-[900px] w-full m-auto flex flex-col items-center`}>
-          <Link href='/' className="h-[135px] flex-none">
-            <div className="h-full w-[135px]  flex-none  cursor-pointer  rounded-[50%] bg-gradient-radial from-[#dcddd8]  to-[#9f50ac] border-4 border-[#9f50ac]">
+        <main className={`${quicksand.variable} font-quicksand max-w-[900px] w-full m-auto flex flex-col items-center h-full`}>
+          <Link href='/' className="h-[125px] flex-none">
+            <div className="h-full w-[125px]  flex-none  cursor-pointer  rounded-[50%] bg-gradient-radial from-[#dcddd8]  to-[#9f50ac] border-4 border-[#9f50ac]">
               <Image 
                 className="" 
                 src={Logo} 

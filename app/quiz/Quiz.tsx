@@ -60,8 +60,8 @@ const Quiz = ({questions, totalQuestions} : Props) => {
   }
 
   return (
-    <div className="text-white text-center">
-      <p className="p-6 pb-4 font-bold text-[20px]">Resultado: {score}</p>
+    <div className="text-white text-center mt-5 flex-auto">
+      {/* <p className="p-6 pb-4 font-bold text-[20px]">Resultado: {score}</p> */}
       <p className="text-[#9f50ac] font-bold pb-2 text-[18px]">
         Pergunta {currentQuestionIndex + 1} de {totalQuestions}
       </p>

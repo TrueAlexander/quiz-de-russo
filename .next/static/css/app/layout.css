@@ -520,6 +520,12 @@ video {
 .mb-6 {
   margin-bottom: 1.5rem !important;
 }
+.ml-2 {
+  margin-left: 0.5rem !important;
+}
+.mr-2 {
+  margin-right: 0.5rem !important;
+}
 .mt-3 {
   margin-top: 0.75rem !important;
 }
@@ -529,11 +535,11 @@ video {
 .mt-9 {
   margin-top: 2.25rem !important;
 }
-.ml-2 {
-  margin-left: 0.5rem !important;
+.mt-4 {
+  margin-top: 1rem !important;
 }
-.mr-2 {
-  margin-right: 0.5rem !important;
+.mt-5 {
+  margin-top: 1.25rem !important;
 }
 .flex {
   display: flex !important;
@@ -541,26 +547,26 @@ video {
 .h-\[135px\] {
   height: 135px !important;
 }
-.h-\[37px\] {
-  height: 37px !important;
-}
-.h-screen {
-  height: 100vh !important;
+.h-\[34px\] {
+  height: 34px !important;
 }
 .h-full {
   height: 100% !important;
 }
-.h-\[32px\] {
-  height: 32px !important;
+.h-screen {
+  height: 100vh !important;
 }
-.h-\[34px\] {
-  height: 34px !important;
+.h-\[125px\] {
+  height: 125px !important;
 }
 .w-\[135px\] {
   width: 135px !important;
 }
 .w-full {
   width: 100% !important;
+}
+.w-\[125px\] {
+  width: 125px !important;
 }
 .min-w-\[120px\] {
   min-width: 120px !important;
@@ -596,9 +602,6 @@ video {
 }
 .justify-center {
   justify-content: center !important;
-}
-.justify-between {
-  justify-content: space-between !important;
 }
 .truncate {
   overflow: hidden !important;
