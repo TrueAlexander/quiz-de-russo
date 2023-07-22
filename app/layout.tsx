@@ -21,11 +21,11 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className="py-0 my-0">
-      <body className="bg-[#2b2737] p-4 h-screen absolute left-0 right-0 top-0 bottom-0 overflow-hidden">
-        <main className={`${quicksand.variable} font-quicksand max-w-[900px] w-full m-auto flex flex-col items-center h-screen overflow-hidden `}>
-          <Link href='/' className="max-h-[125px] shrink">
-            <div className="w-[125px] h-full cursor-pointer  rounded-[50%] bg-gradient-radial from-[#dcddd8]  to-[#9f50ac] border-4 border-[#9f50ac]">
+    <html lang="en">
+      <body className="bg-[#2b2737] p-4 h-screen absolute left-0 right-0 top-0 bottom-0 overflow-hidden box-border flex flex-col justify-center ">
+        <main className={`${quicksand.variable} font-quicksand max-w-[900px] w-full m-auto flex flex-col items-center justify-center h-screen overflow-hidden `}>
+          <Link href='/' className="max-h-[90px] shrink">
+            <div className="w-[90px] h-full cursor-pointer  rounded-[50%] bg-gradient-radial from-[#dcddd8]  to-[#9f50ac] border-4 border-[#9f50ac]">
               <Image 
                 className="" 
                 src={Logo} 
@@ -34,7 +34,7 @@ export default function RootLayout({
             </div>     
           </Link>
           {children}
-          <p className='text-white mt-7 p-4 text-[12px] grow'>
+          <p className='text-white mt-7 p-4 text-[12px]'>
             Criado por <a href="https://www.eformaliza.com/" target="_blank" >e-Formaliza</a>
           </p>
         </main>        

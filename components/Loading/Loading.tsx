@@ -12,7 +12,7 @@ const Loading = () => {
        <Image 
           className="" 
           src={Spinner} 
-          alt="logo"
+          alt="loading"
         />
     </div>
 )}
