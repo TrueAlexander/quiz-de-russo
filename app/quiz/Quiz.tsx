@@ -9,6 +9,7 @@ import QuestionCard from "@/components/QuestionCard/QuestionCard"
 
 //Types
 import { QuestionsState } from "@/types/quiz"
+import Loading from "@/components/Loading/Loading"
 
 type Props = {
   questions: QuestionsState
@@ -20,6 +21,7 @@ const Quiz = ({questions, totalQuestions} : Props) => {
   const [score, setScore] = useState(0)
   const [userAnswers, setUserAnswers] = useState<Record<number, string>>({})
   const [visible, setVisible] = useState(false)
+  const [isLoading, setIsLoading] = useState(true)
 
   const isQuestionAnswered = userAnswers[currentQuestionIndex] ? true : false
 
@@ -48,6 +50,10 @@ const Quiz = ({questions, totalQuestions} : Props) => {
     currentQuestionIndex !== 0 ? setVisible(true) : setVisible(false)
   }, [currentQuestionIndex])
 
+  useEffect(() => {
+    setTimeout(() => setIsLoading(false),  1000) 
+  }, [questions])
+
   const handleClickForward = () => {
 
     if(currentQuestionIndex === totalQuestions - 1) {
@@ -60,32 +66,38 @@ const Quiz = ({questions, totalQuestions} : Props) => {
   }
 
   return (
-    <div className="text-white text-center mt-5 flex-auto flex flex-col justify-center">
-      {/* <p className="p-6 pb-4 font-bold text-[20px]">Resultado: {score}</p> */}
-      <p className="text-[#9f50ac] font-bold pb-2 text-[18px]">
-        Pergunta {currentQuestionIndex + 1} de {totalQuestions}
-      </p>
-      <QuestionCard 
-        currentQuestionIndex={currentQuestionIndex}
-        question={questions[currentQuestionIndex].question}
-        answers={questions[currentQuestionIndex].answers}
-        userAnswer={userAnswers[currentQuestionIndex]}
-        correctAnswer={questions[currentQuestionIndex].correct_answer}
-        onClick={handleOnAnswerClick}
-      />
-      <div className="flex justify-center mt-9">
-        {visible && <Button 
-          text="Anterior"
-          disabled={false}
-          onClick={() => handleChangeQuestion(-1)} 
-        />}
-        <Button
-          disabled={false}
-          text={currentQuestionIndex === totalQuestions - 1 ? 'Fim' : 'Próxima'}
-          onClick={handleClickForward}
-        />
-      </div>
-    </div>
+    <>
+      {isLoading 
+      ? <div className="flex-auto flex flex-col justify-center">
+          <Loading/> 
+        </div>  
+      : <div className="text-white text-center mt-5 grow-0 flex flex-col justify-center">
+          {/* <p className="p-6 pb-4 font-bold text-[20px]">Resultado: {score}</p> */}
+          <p className="text-[#9f50ac] font-bold pb-2 text-[18px]">
+            Pergunta {currentQuestionIndex + 1} de {totalQuestions}
+          </p>
+          <QuestionCard 
+            currentQuestionIndex={currentQuestionIndex}
+            question={questions[currentQuestionIndex].question}
+            answers={questions[currentQuestionIndex].answers}
+            userAnswer={userAnswers[currentQuestionIndex]}
+            correctAnswer={questions[currentQuestionIndex].correct_answer}
+            onClick={handleOnAnswerClick}
+          />
+          <div className="flex justify-center mt-9">
+            {visible && <Button 
+              text="Anterior"
+              disabled={false}
+              onClick={() => handleChangeQuestion(-1)} 
+            />}
+            <Button
+              disabled={false}
+              text={currentQuestionIndex === totalQuestions - 1 ? 'Fim' : 'Próxima'}
+              onClick={handleClickForward}
+            />
+          </div>
+        </div>}
+    </>   
   )
 }
 

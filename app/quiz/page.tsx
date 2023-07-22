@@ -2,6 +2,7 @@
 import { shuffleArray } from "@/utils/arrayUtils"
 //Components
 import Quiz from "./Quiz"
+
 //Types 
 import { Difficulty, QuestionsState, Question } from "@/types/quiz"
 
@@ -32,13 +33,16 @@ const getQuestionsFirebase = async (): Promise<QuestionsState> => {
 
 
 const QuizPage = async () => {
+
   ////
   const newQuestions = await getQuestionsFirebase()
   
   /////
   // const questions = await getQuestions(TOTAL_QUESTIONS, Difficulty.EASY)
   
-  return <Quiz questions={newQuestions} totalQuestions={TOTAL_QUESTIONS}/>
+  return ( 
+    <Quiz questions={newQuestions} totalQuestions={TOTAL_QUESTIONS}/>
+  )
 }
 
 export default QuizPage
