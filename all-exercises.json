@@ -1,0 +1,139 @@
+{"verbs": [
+  {
+    "category": "verbs",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Я ..... в Москве.",
+    "correct_answer": "живу́",
+    "incorrect_answers": [ "живёте", "живу́т", "жить" ],
+    "answers": [ "живёте", "живу́т", "жить", "живу́" ]
+  },
+  {
+    "category": "verbs",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Он ..... об экзамене по ру́сскому языку́.",
+    "correct_answer": "ду́мает",
+    "incorrect_answers": [ "ду́маешь", "ду́мать", "ду́маю" ],
+    "answers": ["ду́мает", "ду́маешь", "ду́мать", "ду́маю" ]
+  },
+  {
+    "category": "verbs",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Я ..... в Бразилии.",
+    "correct_answer": "живу́",
+    "incorrect_answers": [ "живёте", "живу́т", "жить" ],
+    "answers": [ "живёте", "живу́т", "жить", "живу́" ]
+  },
+  {
+    "category": "verbs",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Он ..... об экзамене по математике.",
+    "correct_answer": "ду́мает",
+    "incorrect_answers": [ "ду́маешь", "ду́мать", "ду́маю" ],
+    "answers": ["ду́мает", "ду́маешь", "ду́мать", "ду́маю" ]
+  },
+  {
+    "category": "verbs",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Он ..... о своей работе.",
+    "correct_answer": "ду́мает",
+    "incorrect_answers": [ "ду́маешь", "ду́мать", "ду́маю" ],
+    "answers": ["ду́мает", "ду́маешь", "ду́мать", "ду́маю" ]
+  }],
+  "cases": [
+  {
+    "category": "verbs",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Я ..... в Москве.",
+    "correct_answer": "живу́",
+    "incorrect_answers": [ "живёте", "живу́т", "жить" ],
+    "answers": [ "живёте", "живу́т", "жить", "живу́" ]
+  },
+  {
+    "category": "verbs",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Он ..... об экзамене по ру́сскому языку́.",
+    "correct_answer": "ду́мает",
+    "incorrect_answers": [ "ду́маешь", "ду́мать", "ду́маю" ],
+    "answers": ["ду́мает", "ду́маешь", "ду́мать", "ду́маю" ]
+  },
+  {
+    "category": "verbs",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Я ..... в Бразилии.",
+    "correct_answer": "живу́",
+    "incorrect_answers": [ "живёте", "живу́т", "жить" ],
+    "answers": [ "живёте", "живу́т", "жить", "живу́" ]
+  },
+  {
+    "category": "verbs",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Он ..... об экзамене по математике.",
+    "correct_answer": "ду́мает",
+    "incorrect_answers": [ "ду́маешь", "ду́мать", "ду́маю" ],
+    "answers": ["ду́мает", "ду́маешь", "ду́мать", "ду́маю" ]
+  },
+  {
+    "category": "verbs",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Он ..... о своей работе.",
+    "correct_answer": "ду́мает",
+    "incorrect_answers": [ "ду́маешь", "ду́мать", "ду́маю" ],
+    "answers": ["ду́мает", "ду́маешь", "ду́мать", "ду́маю" ]
+  }],
+  "vocabulary": [
+  {
+    "category": "verbs",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Я ..... в Москве.",
+    "correct_answer": "живу́",
+    "incorrect_answers": [ "живёте", "живу́т", "жить" ],
+    "answers": [ "живёте", "живу́т", "жить", "живу́" ]
+  },
+  {
+    "category": "verbs",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Он ..... об экзамене по ру́сскому языку́.",
+    "correct_answer": "ду́мает",
+    "incorrect_answers": [ "ду́маешь", "ду́мать", "ду́маю" ],
+    "answers": ["ду́мает", "ду́маешь", "ду́мать", "ду́маю" ]
+  },
+  {
+    "category": "verbs",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Я ..... в Бразилии.",
+    "correct_answer": "живу́",
+    "incorrect_answers": [ "живёте", "живу́т", "жить" ],
+    "answers": [ "живёте", "живу́т", "жить", "живу́" ]
+  },
+  {
+    "category": "verbs",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Он ..... об экзамене по математике.",
+    "correct_answer": "ду́мает",
+    "incorrect_answers": [ "ду́маешь", "ду́мать", "ду́маю" ],
+    "answers": ["ду́мает", "ду́маешь", "ду́мать", "ду́маю" ]
+  },
+  {
+    "category": "verbs",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Он ..... о своей работе.",
+    "correct_answer": "ду́мает",
+    "incorrect_answers": [ "ду́маешь", "ду́мать", "ду́маю" ],
+    "answers": ["ду́мает", "ду́маешь", "ду́мать", "ду́маю" ]
+  }]
+}

@@ -10,8 +10,6 @@ import HomepageImage from 'assets/home-pic.jpg'
 const Home = () => {
   const router = useRouter()
 
-  const handleButtonClick = () => router.push('/quiz')
-
   return (
     <div className='text-center flex flex-col justify-center'>
       <p className='text-white p-4 font-bold'>
@@ -21,7 +19,7 @@ const Home = () => {
       <p className='text-[#9f50ac] pt-4 pb-4 text-[18px] '>
         Clique abaixo
       </p>
-      <Button text='Começar!' disabled={false} onClick={handleButtonClick} />
+      <Button text='Começar!' disabled={false} onClick={() => router.push('/categories')} />
     </div>
   )
 }
