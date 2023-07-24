@@ -1,3 +1,4 @@
+'use client'
 //utils
 import { shuffleArray } from "@/utils/arrayUtils"
 //Components
