@@ -48,37 +48,37 @@
     "category": "verbs",
     "type": "multiple",
     "difficulty": "easy",
-    "question": "Я ..... в Москве.",
-    "correct_answer": "живу́",
-    "incorrect_answers": [ "живёте", "живу́т", "жить" ],
-    "answers": [ "живёте", "живу́т", "жить", "живу́" ]
+    "question": "Мы ..... по-русски.",
+    "correct_answer": "говорим",
+    "incorrect_answers": [ "говорите", "говорят", "говорить" ],
+    "answers": [ "говорите", "говорим", "говорят", "говорить" ]
   },
   {
     "category": "verbs",
     "type": "multiple",
     "difficulty": "easy",
-    "question": "Он ..... об экзамене по ру́сскому языку́.",
-    "correct_answer": "ду́мает",
-    "incorrect_answers": [ "ду́маешь", "ду́мать", "ду́маю" ],
-    "answers": ["ду́мает", "ду́маешь", "ду́мать", "ду́маю" ]
+    "question": "Ты ..... в Харькове.",
+    "correct_answer": "учишься",
+    "incorrect_answers": [ "учиться", "учусь", "учитесь" ],
+    "answers": ["учиться", "учусь", "учитесь", "учишься" ]
   },
   {
     "category": "verbs",
     "type": "multiple",
     "difficulty": "easy",
-    "question": "Я ..... в Бразилии.",
-    "correct_answer": "живу́",
-    "incorrect_answers": [ "живёте", "живу́т", "жить" ],
-    "answers": [ "живёте", "живу́т", "жить", "живу́" ]
+    "question": "В мае я ..... по Европе.",
+    "correct_answer": "путешествовала",
+    "incorrect_answers": [ "путешествуют", "путешествовали", "путешествовать" ],
+    "answers": [ "путешествуют", "путешествовали", "путешествовала", "путешествовать" ]
   },
   {
     "category": "verbs",
     "type": "multiple",
     "difficulty": "easy",
-    "question": "Он ..... об экзамене по математике.",
-    "correct_answer": "ду́мает",
-    "incorrect_answers": [ "ду́маешь", "ду́мать", "ду́маю" ],
-    "answers": ["ду́мает", "ду́маешь", "ду́мать", "ду́маю" ]
+    "question": "Сейчас они ..... телевизор.",
+    "correct_answer": "смотрят",
+    "incorrect_answers": [ "смотрели", "смотрю", "посмотришь" ],
+    "answers": ["смотрели", "смотрю", "посмотришь", "смотрят" ]
   },
   {
     "category": "verbs",
@@ -268,10 +268,28 @@
     "category": "vocabulary",
     "type": "multiple",
     "difficulty": "easy",
-    "question": "Reuniaõ é ...",
+    "question": "Reunião é ...",
     "correct_answer": "встреча",
     "incorrect_answers": [ "ремонт", "сообщение", "сомнение" ],
     "answers": ["встреча", "ремонт", "сообщение", "сомнение" ]
+  },
+  {
+    "category": "vocabulary",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Irmã é ...",
+    "correct_answer": "сестра",
+    "incorrect_answers": [ "весна", "девушка", "страна" ],
+    "answers": ["девушка", "страна", "сестра", "весна" ]
+  },
+  {
+    "category": "vocabulary",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Lugar é ...",
+    "correct_answer": "место",
+    "incorrect_answers": [ "лето", "пусто", "тесто" ],
+    "answers": ["лето", "пусто", "тесто", "место" ]
   }
   ]
 }

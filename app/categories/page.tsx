@@ -20,7 +20,7 @@ const Categories = () => {
       <br />
       <Button text='Verbos' disabled={false} onClick={() => router.push('/categories/verbs')} />
       <br />
-      <Button text='Casos' disabled={false} onClick={() => router.push('/categories/cases')} />
+      {/* <Button text='Casos' disabled={false} onClick={() => router.push('/categories/cases')} /> */}
       <br />
     </div>
   )
