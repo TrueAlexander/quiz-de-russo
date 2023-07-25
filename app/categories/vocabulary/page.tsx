@@ -7,7 +7,7 @@ import Quiz from "../../../components/Quiz/Quiz"
 //Types 
 import { Difficulty, QuestionsState, Question } from "@/types/quiz"
 
-const TOTAL_QUESTIONS = 5
+const TOTAL_QUESTIONS = 10
 
 // const getQuestions = async (amount: number, difficulty: Difficulty): Promise<QuestionsState> => {
 //   const endpoint = `https://opentdb.com/api.php?amount=${amount}&difficulty=${difficulty}&type=multiple`

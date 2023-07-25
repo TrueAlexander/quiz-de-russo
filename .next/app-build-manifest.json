@@ -16,15 +16,20 @@
       "static/chunks/main-app.js",
       "static/chunks/app/categories/page.js"
     ],
-    "/categories/verbs/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/categories/verbs/page.js"
-    ],
     "/result/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/result/page.js"
+    ],
+    "/categories/vocabulary/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/categories/vocabulary/page.js"
+    ],
+    "/categories/verbs/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/categories/verbs/page.js"
     ]
   }
 }

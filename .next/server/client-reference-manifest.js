@@ -3479,7 +3479,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./components/Button/Button.tsx",
         "name": "*",
         "chunks": [
-          "app/result/page:static/chunks/app/result/page.js"
+          "app/categories/verbs/page:static/chunks/app/categories/verbs/page.js"
         ],
         "async": false
       },
@@ -3487,7 +3487,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./components/Button/Button.tsx",
         "name": "",
         "chunks": [
-          "app/result/page:static/chunks/app/result/page.js"
+          "app/categories/verbs/page:static/chunks/app/categories/verbs/page.js"
         ],
         "async": false
       },
@@ -3495,7 +3495,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./components/Button/Button.tsx",
         "name": "default",
         "chunks": [
-          "app/result/page:static/chunks/app/result/page.js"
+          "app/categories/verbs/page:static/chunks/app/categories/verbs/page.js"
         ],
         "async": false
       }
@@ -3854,28 +3854,54 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./app/categories/verbs/page.tsx": {
+    "(app-client)/./app/result/page.tsx": {
       "*": {
-        "id": "(sc_client)/./app/categories/verbs/page.tsx",
+        "id": "(sc_client)/./app/result/page.tsx",
         "name": "*",
         "chunks": [
-          "app/categories/verbs/page:static/chunks/app/categories/verbs/page.js"
+          "app/result/page:static/chunks/app/result/page.js"
         ],
         "async": false
       },
       "": {
-        "id": "(sc_client)/./app/categories/verbs/page.tsx",
+        "id": "(sc_client)/./app/result/page.tsx",
         "name": "",
         "chunks": [
-          "app/categories/verbs/page:static/chunks/app/categories/verbs/page.js"
+          "app/result/page:static/chunks/app/result/page.js"
         ],
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./app/categories/verbs/page.tsx",
+        "id": "(sc_client)/./app/result/page.tsx",
         "name": "default",
         "chunks": [
-          "app/categories/verbs/page:static/chunks/app/categories/verbs/page.js"
+          "app/result/page:static/chunks/app/result/page.js"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/categories/vocabulary/page.tsx": {
+      "*": {
+        "id": "(sc_client)/./app/categories/vocabulary/page.tsx",
+        "name": "*",
+        "chunks": [
+          "app/categories/vocabulary/page:static/chunks/app/categories/vocabulary/page.js"
+        ],
+        "async": false
+      },
+      "": {
+        "id": "(sc_client)/./app/categories/vocabulary/page.tsx",
+        "name": "",
+        "chunks": [
+          "app/categories/vocabulary/page:static/chunks/app/categories/vocabulary/page.js"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/categories/vocabulary/page.tsx",
+        "name": "default",
+        "chunks": [
+          "app/categories/vocabulary/page:static/chunks/app/categories/vocabulary/page.js"
         ],
         "async": false
       }
@@ -4010,28 +4036,28 @@ self.__RSC_MANIFEST={
         "async": false
       }
     },
-    "(app-client)/./app/result/page.tsx": {
+    "(app-client)/./app/categories/verbs/page.tsx": {
       "*": {
-        "id": "(sc_client)/./app/result/page.tsx",
+        "id": "(sc_client)/./app/categories/verbs/page.tsx",
         "name": "*",
         "chunks": [
-          "app/result/page:static/chunks/app/result/page.js"
+          "app/categories/verbs/page:static/chunks/app/categories/verbs/page.js"
         ],
         "async": false
       },
       "": {
-        "id": "(sc_client)/./app/result/page.tsx",
+        "id": "(sc_client)/./app/categories/verbs/page.tsx",
         "name": "",
         "chunks": [
-          "app/result/page:static/chunks/app/result/page.js"
+          "app/categories/verbs/page:static/chunks/app/categories/verbs/page.js"
         ],
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./app/result/page.tsx",
+        "id": "(sc_client)/./app/categories/verbs/page.tsx",
         "name": "default",
         "chunks": [
-          "app/result/page:static/chunks/app/result/page.js"
+          "app/categories/verbs/page:static/chunks/app/categories/verbs/page.js"
         ],
         "async": false
       }
@@ -11536,7 +11562,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./components/Button/Button.tsx",
       "name": "*",
       "chunks": [
-        "app/result/page:static/chunks/app/result/page.js"
+        "app/categories/verbs/page:static/chunks/app/categories/verbs/page.js"
       ],
       "async": false
     },
@@ -11544,7 +11570,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./components/Button/Button.tsx",
       "name": "",
       "chunks": [
-        "app/result/page:static/chunks/app/result/page.js"
+        "app/categories/verbs/page:static/chunks/app/categories/verbs/page.js"
       ],
       "async": false
     },
@@ -11552,7 +11578,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./components/Button/Button.tsx",
       "name": "default",
       "chunks": [
-        "app/result/page:static/chunks/app/result/page.js"
+        "app/categories/verbs/page:static/chunks/app/categories/verbs/page.js"
       ],
       "async": false
     },
@@ -13458,27 +13484,51 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\app\\categories\\verbs\\page.tsx": {
-      "id": "(app-client)/./app/categories/verbs/page.tsx",
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\app\\result\\page.tsx": {
+      "id": "(app-client)/./app/result/page.tsx",
       "name": "*",
       "chunks": [
-        "app/categories/verbs/page:static/chunks/app/categories/verbs/page.js"
+        "app/result/page:static/chunks/app/result/page.js"
       ],
       "async": false
     },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\app\\categories\\verbs\\page.tsx#": {
-      "id": "(app-client)/./app/categories/verbs/page.tsx",
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\app\\result\\page.tsx#": {
+      "id": "(app-client)/./app/result/page.tsx",
       "name": "",
       "chunks": [
-        "app/categories/verbs/page:static/chunks/app/categories/verbs/page.js"
+        "app/result/page:static/chunks/app/result/page.js"
       ],
       "async": false
     },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\app\\categories\\verbs\\page.tsx#default": {
-      "id": "(app-client)/./app/categories/verbs/page.tsx",
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\app\\result\\page.tsx#default": {
+      "id": "(app-client)/./app/result/page.tsx",
       "name": "default",
       "chunks": [
-        "app/categories/verbs/page:static/chunks/app/categories/verbs/page.js"
+        "app/result/page:static/chunks/app/result/page.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\app\\categories\\vocabulary\\page.tsx": {
+      "id": "(app-client)/./app/categories/vocabulary/page.tsx",
+      "name": "*",
+      "chunks": [
+        "app/categories/vocabulary/page:static/chunks/app/categories/vocabulary/page.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\app\\categories\\vocabulary\\page.tsx#": {
+      "id": "(app-client)/./app/categories/vocabulary/page.tsx",
+      "name": "",
+      "chunks": [
+        "app/categories/vocabulary/page:static/chunks/app/categories/vocabulary/page.js"
+      ],
+      "async": false
+    },
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\app\\categories\\vocabulary\\page.tsx#default": {
+      "id": "(app-client)/./app/categories/vocabulary/page.tsx",
+      "name": "default",
+      "chunks": [
+        "app/categories/vocabulary/page:static/chunks/app/categories/vocabulary/page.js"
       ],
       "async": false
     },
@@ -13602,27 +13652,27 @@ self.__RSC_MANIFEST={
       ],
       "async": false
     },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\app\\result\\page.tsx": {
-      "id": "(app-client)/./app/result/page.tsx",
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\app\\categories\\verbs\\page.tsx": {
+      "id": "(app-client)/./app/categories/verbs/page.tsx",
       "name": "*",
       "chunks": [
-        "app/result/page:static/chunks/app/result/page.js"
+        "app/categories/verbs/page:static/chunks/app/categories/verbs/page.js"
       ],
       "async": false
     },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\app\\result\\page.tsx#": {
-      "id": "(app-client)/./app/result/page.tsx",
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\app\\categories\\verbs\\page.tsx#": {
+      "id": "(app-client)/./app/categories/verbs/page.tsx",
       "name": "",
       "chunks": [
-        "app/result/page:static/chunks/app/result/page.js"
+        "app/categories/verbs/page:static/chunks/app/categories/verbs/page.js"
       ],
       "async": false
     },
-    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\app\\result\\page.tsx#default": {
-      "id": "(app-client)/./app/result/page.tsx",
+    "C:\\AllDocuments\\Alexander\\Программирование\\Projects\\2023\\quiz-next-typescript-tutorial\\react-quiz-2023\\quiz-de-russo\\app\\categories\\verbs\\page.tsx#default": {
+      "id": "(app-client)/./app/categories/verbs/page.tsx",
       "name": "default",
       "chunks": [
-        "app/result/page:static/chunks/app/result/page.js"
+        "app/categories/verbs/page:static/chunks/app/categories/verbs/page.js"
       ],
       "async": false
     }

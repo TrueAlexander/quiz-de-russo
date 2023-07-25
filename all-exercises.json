@@ -22,6 +22,51 @@
     "type": "multiple",
     "difficulty": "easy",
     "question": "Я ..... в Бразилии.",
+    "correct_answer": "родился",
+    "incorrect_answers": [ "родится", "родиться", "родились" ],
+    "answers": [ "родится", "родиться", "родились", "родился" ]
+  },
+  {
+    "category": "verbs",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Мы ..... на пляже в Барселоне.",
+    "correct_answer": "отдыхаем",
+    "incorrect_answers": [ "отдыхаю", "отдыхаете", "отдыхать" ],
+    "answers": ["отдыхаем", "отдыхаю", "отдыхаете", "отдыхать" ]
+  },
+  {
+    "category": "verbs",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Он ..... о своей работе.",
+    "correct_answer": "ду́мает",
+    "incorrect_answers": [ "ду́маешь", "ду́мать", "ду́маю" ],
+    "answers": ["ду́мает", "ду́маешь", "ду́мать", "ду́маю" ]
+  },
+  {
+    "category": "verbs",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Я ..... в Москве.",
+    "correct_answer": "живу́",
+    "incorrect_answers": [ "живёте", "живу́т", "жить" ],
+    "answers": [ "живёте", "живу́т", "жить", "живу́" ]
+  },
+  {
+    "category": "verbs",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Он ..... об экзамене по ру́сскому языку́.",
+    "correct_answer": "ду́мает",
+    "incorrect_answers": [ "ду́маешь", "ду́мать", "ду́маю" ],
+    "answers": ["ду́мает", "ду́маешь", "ду́мать", "ду́маю" ]
+  },
+  {
+    "category": "verbs",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Я ..... в Бразилии.",
     "correct_answer": "живу́",
     "incorrect_answers": [ "живёте", "живу́т", "жить" ],
     "answers": [ "живёте", "живу́т", "жить", "живу́" ]
@@ -39,14 +84,15 @@
     "category": "verbs",
     "type": "multiple",
     "difficulty": "easy",
-    "question": "Он ..... о своей работе.",
-    "correct_answer": "ду́мает",
-    "incorrect_answers": [ "ду́маешь", "ду́мать", "ду́маю" ],
-    "answers": ["ду́мает", "ду́маешь", "ду́мать", "ду́маю" ]
-  }],
+    "question": "Fazer é ...",
+    "correct_answer": "делать",
+    "incorrect_answers": [ "думать", "давать", "дремать" ],
+    "answers": ["думать", "давать", "дремать", "делать" ]
+  }
+  ],
   "cases": [
   {
-    "category": "verbs",
+    "category": "cases",
     "type": "multiple",
     "difficulty": "easy",
     "question": "Я ..... в Москве.",
@@ -55,7 +101,7 @@
     "answers": [ "живёте", "живу́т", "жить", "живу́" ]
   },
   {
-    "category": "verbs",
+    "category": "cases",
     "type": "multiple",
     "difficulty": "easy",
     "question": "Он ..... об экзамене по ру́сскому языку́.",
@@ -64,7 +110,7 @@
     "answers": ["ду́мает", "ду́маешь", "ду́мать", "ду́маю" ]
   },
   {
-    "category": "verbs",
+    "category": "cases",
     "type": "multiple",
     "difficulty": "easy",
     "question": "Я ..... в Бразилии.",
@@ -73,7 +119,7 @@
     "answers": [ "живёте", "живу́т", "жить", "живу́" ]
   },
   {
-    "category": "verbs",
+    "category": "cases",
     "type": "multiple",
     "difficulty": "easy",
     "question": "Он ..... об экзамене по математике.",
@@ -82,58 +128,150 @@
     "answers": ["ду́мает", "ду́маешь", "ду́мать", "ду́маю" ]
   },
   {
-    "category": "verbs",
+    "category": "cases",
     "type": "multiple",
     "difficulty": "easy",
     "question": "Он ..... о своей работе.",
     "correct_answer": "ду́мает",
     "incorrect_answers": [ "ду́маешь", "ду́мать", "ду́маю" ],
     "answers": ["ду́мает", "ду́маешь", "ду́мать", "ду́маю" ]
-  }],
+  },
+  {
+    "category": "cases",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Я ..... в Москве.",
+    "correct_answer": "живу́",
+    "incorrect_answers": [ "живёте", "живу́т", "жить" ],
+    "answers": [ "живёте", "живу́т", "жить", "живу́" ]
+  },
+  {
+    "category": "cases",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Он ..... об экзамене по ру́сскому языку́.",
+    "correct_answer": "ду́мает",
+    "incorrect_answers": [ "ду́маешь", "ду́мать", "ду́маю" ],
+    "answers": ["ду́мает", "ду́маешь", "ду́мать", "ду́маю" ]
+  },
+  {
+    "category": "cases",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Я ..... в Бразилии.",
+    "correct_answer": "живу́",
+    "incorrect_answers": [ "живёте", "живу́т", "жить" ],
+    "answers": [ "живёте", "живу́т", "жить", "живу́" ]
+  },
+  {
+    "category": "cases",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Он ..... об экзамене по математике.",
+    "correct_answer": "ду́мает",
+    "incorrect_answers": [ "ду́маешь", "ду́мать", "ду́маю" ],
+    "answers": ["ду́мает", "ду́маешь", "ду́мать", "ду́маю" ]
+  },
+  {
+    "category": "cases",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Он ..... о своей работе.",
+    "correct_answer": "ду́мает",
+    "incorrect_answers": [ "ду́маешь", "ду́мать", "ду́маю" ],
+    "answers": ["ду́мает", "ду́маешь", "ду́мать", "ду́маю" ]
+  }
+  ],
   "vocabulary": [
   {
-    "category": "verbs",
+    "category": "vocabulary",
     "type": "multiple",
     "difficulty": "easy",
-    "question": "Я ..... в Москве.",
-    "correct_answer": "живу́",
-    "incorrect_answers": [ "живёте", "живу́т", "жить" ],
-    "answers": [ "живёте", "живу́т", "жить", "живу́" ]
+    "question": "Cidade é ...",
+    "correct_answer": "город",
+    "incorrect_answers": [ "дом", "страна", "район" ],
+    "answers": [ "город", "дом", "страна", "район" ]
   },
   {
-    "category": "verbs",
+    "category": "vocabulary",
     "type": "multiple",
     "difficulty": "easy",
-    "question": "Он ..... об экзамене по ру́сскому языку́.",
-    "correct_answer": "ду́мает",
-    "incorrect_answers": [ "ду́маешь", "ду́мать", "ду́маю" ],
-    "answers": ["ду́мает", "ду́маешь", "ду́мать", "ду́маю" ]
+    "question": "Peixe é ...",
+    "correct_answer": "рыба",
+    "incorrect_answers": [ "молоко", "мясо", "масло" ],
+    "answers": ["молоко", "мясо", "масло", "рыба" ]
   },
   {
-    "category": "verbs",
+    "category": "vocabulary",
     "type": "multiple",
     "difficulty": "easy",
-    "question": "Я ..... в Бразилии.",
-    "correct_answer": "живу́",
-    "incorrect_answers": [ "живёте", "живу́т", "жить" ],
-    "answers": [ "живёте", "живу́т", "жить", "живу́" ]
+    "question": "País é ...",
+    "correct_answer": "страна",
+    "incorrect_answers": [ "город", "место", "улица" ],
+    "answers": [ "страна", "город", "место", "улица" ]
   },
   {
-    "category": "verbs",
+    "category": "vocabulary",
     "type": "multiple",
     "difficulty": "easy",
-    "question": "Он ..... об экзамене по математике.",
-    "correct_answer": "ду́мает",
-    "incorrect_answers": [ "ду́маешь", "ду́мать", "ду́маю" ],
-    "answers": ["ду́мает", "ду́маешь", "ду́мать", "ду́маю" ]
+    "question": "Inverno é ...",
+    "correct_answer": "зима",
+    "incorrect_answers": [ "осень", "весна", "лето" ],
+    "answers": ["осень", "весна", "лето", "зима" ]
   },
   {
-    "category": "verbs",
+    "category": "vocabulary",
     "type": "multiple",
     "difficulty": "easy",
-    "question": "Он ..... о своей работе.",
-    "correct_answer": "ду́мает",
-    "incorrect_answers": [ "ду́маешь", "ду́мать", "ду́маю" ],
-    "answers": ["ду́мает", "ду́маешь", "ду́мать", "ду́маю" ]
-  }]
+    "question": "Trabalho é ...",
+    "correct_answer": "работа",
+    "incorrect_answers": [ "фабрика", "погода", "город" ],
+    "answers": ["работа", "фабрика", "погода", "город" ]
+  },
+  {
+    "category": "vocabulary",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Vizinho é ...",
+    "correct_answer": "сосед",
+    "incorrect_answers": [ "учитель", "мопед", "обед" ],
+    "answers": [ "учитель", "мопед", "сосед", "обед" ]
+  },
+  {
+    "category": "vocabulary",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Praia é ...",
+    "correct_answer": "пляж",
+    "incorrect_answers": [ "этаж", "врач", "площадь" ],
+    "answers": ["пляж", "этаж", "врач", "площадь" ]
+  },
+  {
+    "category": "vocabulary",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Mundo é ...",
+    "correct_answer": "мир",
+    "incorrect_answers": [ "пир", "шар", "дар" ],
+    "answers": [ "мир", "пир", "шар", "дар" ]
+  },
+  {
+    "category": "vocabulary",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Chuva é ...",
+    "correct_answer": "дождь",
+    "incorrect_answers": [ "снег", "погода", "жара" ],
+    "answers": ["снег", "погода", "жара", "дождь" ]
+  },
+  {
+    "category": "vocabulary",
+    "type": "multiple",
+    "difficulty": "easy",
+    "question": "Reuniaõ é ...",
+    "correct_answer": "встреча",
+    "incorrect_answers": [ "ремонт", "сообщение", "сомнение" ],
+    "answers": ["встреча", "ремонт", "сообщение", "сомнение" ]
+  }
+  ]
 }

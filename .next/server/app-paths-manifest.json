@@ -1,5 +1,6 @@
 {
   "/categories/page": "app/categories/page.js",
-  "/categories/verbs/page": "app/categories/verbs/page.js",
-  "/result/page": "app/result/page.js"
+  "/result/page": "app/result/page.js",
+  "/page": "app/page.js",
+  "/categories/verbs/page": "app/categories/verbs/page.js"
 }
